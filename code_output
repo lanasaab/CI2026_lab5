@@ -1,0 +1,52 @@
+
+Original cave
+01 | (1, 1) | forward
+02 | (2, 1) | left
+03 | (2, 1) | left
+04 | (2, 1) | forward
+05 | (1, 1) | right
+06 | (1, 1) | forward
+07 | (1, 2) | right
+08 | (1, 2) | forward
+09 | (2, 2) | forward
+10 | (3, 2) | left
+11 | (3, 2) | left
+12 | (3, 2) | forward
+13 | (2, 2) | right
+14 | (2, 2) | forward
+15 | (2, 3) | grab
+16 | (2, 3) | left
+17 | (2, 3) | left
+18 | (2, 3) | forward
+19 | (2, 2) | forward
+20 | (2, 1) | right
+21 | (2, 1) | forward
+22 | (1, 1) | climb
+Result: (True, 22, 0)
+
+Shooting cave
+01 | (1, 1) | forward
+02 | (2, 1) | left
+03 | (2, 1) | left
+04 | (2, 1) | forward
+05 | (1, 1) | right
+06 | (1, 1) | forward
+07 | (1, 2) | right
+08 | (1, 2) | forward
+09 | (2, 2) | left
+10 | (2, 2) | left
+11 | (2, 2) | forward
+12 | (1, 2) | right
+13 | (1, 2) | shoot
+14 | (1, 2) | forward
+15 | (1, 3) | forward
+16 | (1, 4) | grab
+17 | (1, 4) | left
+18 | (1, 4) | left
+19 | (1, 4) | forward
+20 | (1, 3) | forward
+21 | (1, 2) | forward
+22 | (1, 1) | climb
+Result: (True, 22, 1)
+
+All test scenarios passed.
